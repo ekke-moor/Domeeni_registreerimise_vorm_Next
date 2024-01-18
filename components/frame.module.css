@@ -1,0 +1,194 @@
+.frameChild {
+  position: relative;
+  width: 527px;
+  height: 57px;
+  display: none;
+  max-width: 100%;
+  z-index: 1;
+}
+.div,
+.frameItem {
+  position: absolute;
+}
+.frameItem {
+  top: 0.15px;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-lightgreen);
+  width: 100%;
+  height: 100%;
+}
+.div {
+  top: 6.15px;
+  left: 17px;
+  display: inline-block;
+  width: 34px;
+  height: 40px;
+  z-index: 1;
+}
+.ellipseParent {
+  position: relative;
+  width: 56px;
+  height: 53px;
+}
+.frameInner {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0.9px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.vectorWrapper {
+  width: 170px;
+  height: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+}
+.inputField {
+  position: absolute;
+  margin: 0 !important;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-silver);
+}
+.div1 {
+  position: relative;
+  display: inline-block;
+  height: 38px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.inputFieldParent {
+  width: 57px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-mid) var(--padding-2xs);
+  box-sizing: border-box;
+  position: relative;
+}
+.arrowIcon {
+  position: relative;
+  width: 149.5px;
+  height: 0.4px;
+  object-fit: contain;
+}
+.frameContainer,
+.frameGroup {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameGroup {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.frameContainer {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-9xs) var(--padding-7xs) 0 0;
+}
+.ellipseDiv {
+  position: absolute;
+  margin: 0 !important;
+  height: 100%;
+  width: 100%;
+  top: -0.45px;
+  right: 0.5px;
+  bottom: 0.45px;
+  left: -0.5px;
+  border-radius: 50%;
+  background-color: var(--color-silver);
+}
+.div2 {
+  position: relative;
+  display: inline-block;
+  height: 35px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.ellipseGroup,
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ellipseGroup {
+  align-self: stretch;
+  padding: var(--padding-6xs) var(--padding-mid) var(--padding-mini);
+  position: relative;
+}
+.frameDiv {
+  width: 57px;
+  padding: 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.frame1,
+.frame2,
+.frameParent {
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.frameParent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  gap: var(--gap-base);
+  max-width: 100%;
+  z-index: 1;
+}
+.frame1,
+.frame2 {
+  overflow: hidden;
+}
+.frame2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-lgi) var(--padding-8xs) 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.frame1 {
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-4xs) 0 0;
+}
+.frame,
+.frame1,
+.frameWrapper {
+  display: flex;
+  max-width: 100%;
+}
+.frameWrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.frame {
+  width: 617px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: left;
+  font-size: var(--font-size-14xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
